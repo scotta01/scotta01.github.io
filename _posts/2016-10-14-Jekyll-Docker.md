@@ -9,16 +9,16 @@ attempt to do update my site offline before checking it in to GitHub pages.
 Turns out it was very easy to do.
 
 * First I cloned a copy of my site  
-```posh
+```bash
 git clone https://github.com/scotta01/scotta01.github.io
 ```
 
 * Then run the Official Jekyll docker image mounting the git repository to /srv/jekyll  
-```posh
- docker run -it --rm `
-        --name=mysite `
-        --volume=$(pwd):/srv/jekyll `
-        -p 4000:4000 `
+```bash
+ docker run -it --rm `  
+        --name=mysite `  
+        --volume=$(pwd):/srv/jekyll `  
+        -p 4000:4000 `  
         jekyll/jekyll
 ```
 
