@@ -1,15 +1,20 @@
 ---
 layout: page
-title: About
+title: whoami
 permalink: /about/
 ---
 
-Some information about you!
+This is a little bit about me.
 
-### More Information
+I am a Senior SysAdmin in the public sector.  
+  
+Looking after 2 datacentres, managing a private cloud with over 100k users,
+Office 365 tenancies, Azure IaaS, and now some Linux on AWS there's never a quiet day.  
 
-A place to include any other types of information that you'd like to include about yourself.
+Being primarily a Windows Admin, I have a lot of experience
+with PowerShell and alot of my projects focus on scripts and automation.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Email](mailto:home@alanscott.me.uk)  
+[Twitter](https://twitter.com/scotta01)
