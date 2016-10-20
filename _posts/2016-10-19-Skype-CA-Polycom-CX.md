@@ -13,10 +13,10 @@ It appears the older Aries based devices have a limited list of Trusted Public C
 I checked and the correct certificates were in their respective container, however Skype still needs to know which ones to trust. To do this the following needs to be done.
 
 * Find each certificate in your certificate chain
-![Skype Cert Chain](/images/Skype_CA.png)
+![Skype Cert Chain](/images/Skype_CA_ss.png)
 
 * Open each certificate and note down the thumbprint
-![Skype CA Thumbprint](/images/Skype_CA_Thumbprint.png)
+![Skype CA Thumbprint](/images/Skype_CA_Thumbprint_ss.png)
 
 * Repeat this for each certificate in the chain.
 
