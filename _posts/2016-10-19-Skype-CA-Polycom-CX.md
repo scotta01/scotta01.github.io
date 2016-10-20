@@ -35,3 +35,7 @@ Set-CsWebServiceConfiguration -TrustedCACerts @{Add=$rootcert,$intermediatecert}
 
 
 After a couple of minutes, the phones were able to sign in again fine.
+
+### Edge servers
+Should you use phones that use Better Together over USB you masy still find there is an issue. The reason for this is, while using USB it uses your Lync/Skype for Business clients details
+and so uses the Edge servers to make connection. As of yet I have not found a way of making the phones accept the certs that have been installed on the Edge server.
